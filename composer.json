@@ -50,5 +50,7 @@
     },
     "replace": {
         "moncash/moncash" : "self.version"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

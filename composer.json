@@ -7,7 +7,7 @@
         "MonCash-PHP-SDK"
     ],
     "homepage": "https://github.com/mrvivaldio/moncash",
-    "license": "MIT",
+    "license": "M7ROV CONSOLIDATE, MIT, LARAVEL, MONCASH, PHP",
     "authors": [
         {
             "name": "R. Vivaldio MAURICE",
@@ -21,12 +21,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Mrvivaldio\\Moncash\\": "src"
-        }
+            "Mrvivaldio\\M7C\\": "src/M7C/",
+            "Moncash\\": "src/Moncash/"
+        },
+        "files": ["src/helpers.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Mrvivaldio\\Moncash\\Test\\": "tests"
+            "Mrvivaldio\\Test\\": "tests/"
         }
     },
     "scripts": {
@@ -44,5 +46,8 @@
     },
     "require": {
         "guzzlehttp/guzzle": "^7.5"
+    },
+    "replace": {
+        "moncash/moncash" : "self.version"
     }
 }

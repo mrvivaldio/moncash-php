@@ -3,8 +3,9 @@
     "type": "metapackage",
     "description": "Use for all laravel projects to appropriate versions of both PHP, Laravel and Moncash. PHP SDK for payment using MonCash on PHP",
     "keywords": [
-        "DGCGroup",
-        "MonCash-PHP-SDK"
+        "Moncash",
+        "M7ROV Consolidate",
+        "R. Vivaldi O MAURICE"
     ],
     "homepage": "https://github.com/mrvivaldio/moncash",
     "license": "MIT",
